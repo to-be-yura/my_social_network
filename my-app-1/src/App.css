@@ -1,0 +1,61 @@
+
+
+.app-wrapper {
+	/* background-color: rgba(255, 136, 172, 0.25); */
+	
+	margin: 0 10%;
+	height: 100%;
+	
+	display: grid;
+	
+	grid-template-areas:
+	"h h"
+	"n c"
+	"f f";
+	
+	grid-template-rows: 60px 1fr 48px;
+	grid-template-columns: 2fr 10fr;
+	grid-gap: 10px;
+}
+
+.app-wrapper div {
+	background-color: rgba(255, 136, 172, 0.25);
+}
+
+.header {
+	background-color: rgba(255, 136, 172, 0.25); /* <header> не наследует */
+	grid-area: h;
+}
+
+.header img {
+	height: 100%;
+}
+.nav {
+	grid-area: n;
+
+	/* height: 100%; */
+}
+
+.content {
+	grid-area: c;
+
+	display: grid;
+	grid-gap: 10px;
+
+
+}
+
+.content>div.img {
+	background-image: url(https://st-gdefon.gallery.world/wallpapers_original/266141_gallery.world.jpg);
+	background-position:center center;
+	background-size:cover;
+
+	height: 150px;
+}
+
+.footer {
+	grid-area: f;
+
+	background-color: rgba(255, 136, 172, 0.25); /* <footer> не наследует */
+
+}
