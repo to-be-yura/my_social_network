@@ -1,0 +1,14 @@
+.Profile {
+	grid-area: c;
+
+	display: grid;
+	grid-gap: 10px;
+}
+
+.Profile > div.img {
+	background-image: url(https://st-gdefon.gallery.world/wallpapers_original/266141_gallery.world.jpg);
+		background-position: center center;
+	background-size: cover;
+
+	height: 150px;
+}

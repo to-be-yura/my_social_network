@@ -1,6 +1,6 @@
-const Content = () => {
+const Profile = () => {
 	return (
-		<div className='content'>
+		<div className='Profile'>
 			<div className='img'></div>
 
 			<div>ava + description</div>
@@ -18,4 +18,4 @@ const Content = () => {
 	);
 }
 
-export default Content;
+export default Profile;
