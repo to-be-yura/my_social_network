@@ -5,10 +5,20 @@
 	background-color:rgba(255, 136, 172, 0.75);
 }
 
-.link{
-	color: white;
+.Settings {
+	margin-top: 1em;
 }
 
-.link_end {
-	margin-top: 1em;
+a{
+	color: white;
+	text-decoration: none;
+}
+
+a.active {
+	color: rgb(177, 39, 80);
+}
+
+a:hover {
+	/*color: rgb(177, 39, 80);*/
+	color: brown;
 }

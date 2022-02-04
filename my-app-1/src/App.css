@@ -8,8 +8,7 @@
 	
 	grid-template-areas:
 	"h h"
-	"n c"
-	"f f";
+	"n c";
 	
 	grid-template-rows: 60px 1fr 48px;
 	grid-template-columns: 2fr 10fr;
@@ -18,6 +17,7 @@
 
 .app-wrapper div {
 	background-color: rgba(255, 136, 172, 0.25);
+	/*background-color: rgba(0, 0, 0, 0.10);*/
 }
 
 .Title {
