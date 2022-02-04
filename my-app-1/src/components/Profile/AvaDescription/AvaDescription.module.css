@@ -1,0 +1,46 @@
+.box {
+    display: grid;
+    grid-gap: 10px;
+}
+
+.imgCover {
+    background-image: url(https://st-gdefon.gallery.world/wallpapers_original/266141_gallery.world.jpg);
+    background-position: center center;
+    background-size: cover;
+
+    height: 200px;
+}
+
+.AvaDescription {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-gap: 20px;
+}
+
+/*.Title {*/
+/*    font-size: larger;*/
+/*}*/
+
+.imgAva{
+    background-image: url(https://pixelbox.ru/wp-content/uploads/2021/03/ava-instagram-49.jpg);
+    background-position: center center;
+    background-size: cover;
+
+    height: 200px;
+    width: 200px;
+}
+
+.Description {
+    display: grid;
+    grid-template-rows: min-content 1fr;
+    grid-gap: 20px;
+}
+
+.boxValue {
+    display: grid;
+    grid-template-columns: min-content 1fr;
+}
+
+.value {
+    font-style: italic;
+}

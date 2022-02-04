@@ -1,6 +1,0 @@
-.footer {
-	grid-area: f;
-
-	background-color: rgba(255, 136, 172, 0.25); /* <footer> не наследует */
-
-}
