@@ -1,0 +1,14 @@
+.Navbar {
+	padding: 10px;
+	grid-area: n;
+	align-self: start;
+	background-color:rgba(255, 136, 172, 0.75);
+}
+
+.link{
+	color: white;
+}
+
+.link_end {
+	margin-top: 1em;
+}
