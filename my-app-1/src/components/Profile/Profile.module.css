@@ -1,0 +1,5 @@
+.Profile {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-rows: min-content min-content;
+}

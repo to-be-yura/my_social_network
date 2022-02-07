@@ -1,8 +1,7 @@
 .Navbar {
-	padding: 10px;
-	grid-area: n;
+	padding-left: 10px;
 	align-self: start;
-	background-color:rgba(255, 136, 172, 0.75);
+	/*background-color:rgba(255, 136, 172, 0.75);*/
 }
 
 .Settings {
@@ -10,15 +9,15 @@
 }
 
 a{
-	color: white;
+	color: rgb(177, 39, 80);
 	text-decoration: none;
 }
 
 a.active {
-	color: rgb(177, 39, 80);
+	/*text-decoration: underline;*/
+	color: white;
 }
 
 a:hover {
-	/*color: rgb(177, 39, 80);*/
-	color: brown;
+	color: white;
 }

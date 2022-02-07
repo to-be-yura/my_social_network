@@ -1,9 +1,21 @@
 .header {
-	/*background-color: rgba(255, 136, 172, 0.25); !* <header> не наследует *!*/
-	background-color: rgba(255, 136, 172, 0.75); /* <header> не наследует */
-	grid-area: h;
+	background-color: rgba(255, 255, 255, 0.9); /* <header> не наследует */
+	height: 60px;
+	padding-left: 10%;
+	display: grid;
+	grid-template-columns: 60px min-content 1fr;
 }
 
 .header img {
-	height: 100%;
+	width: 100%;
+}
+
+.name1 {
+	align-self: center;
+	color: red;
+}
+
+.name2 {
+	align-self: center;
+	color: #644599;
 }
